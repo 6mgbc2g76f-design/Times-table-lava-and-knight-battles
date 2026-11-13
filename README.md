@@ -14,3 +14,8 @@ Knight Battle only, built from the uploaded Times-table-lava-and-knight-battles-
 - New mounted-knight Home Screen icon.
 
 Sound is generated in the browser via Web Audio and works offline. On iOS, tap the game once to unlock audio.
+
+Character art update: transparent PNG sprites for three mounted knights and two enemy waves. Game rules unchanged.
+
+## Royal flag artwork
+The defended flag and the flag carried away on defeat use the bundled `royal-flag.png` asset.
