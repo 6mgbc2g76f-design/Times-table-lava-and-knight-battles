@@ -1,25 +1,16 @@
-# Dragon Maths — Three Adventures
+# Knight Battle — Times Tables
 
-An offline-capable, tablet-friendly 12×12 multiplication game with **Practice**, **Lava Survival**, and **Knight Battle**.
+Knight Battle only, built from the uploaded Times-table-lava-and-knight-battles-main source. Upload the **contents** of this ZIP into the root of a GitHub repository and enable GitHub Pages from `main` / `(root)`.
 
-## Publish with GitHub Pages
+## Features
+- Original 12×12 board, keypad, three individually selectable knights, five-square diagonal movement, adjustable advance timer, score, sound toggle and basic battle gameplay.
+- Three knights mounted on horses; first-wave Viking-like footmen and visually distinct second-wave raiders.
+- Enemy advance plays a synthesized army roar; defeated footmen play a comic yelp.
+- Defeat animation and enemy clock pause for two seconds.
+- Knights block advancing enemies on their squares; blocked enemies remain one square above.
+- Fixed-square questions or random questions drawn from checked multiplication tables.
+- Royal flag replaces treasure; animated win/loss scenes.
+- Optional 12-footman second wave arrives after the sixth enemy advance.
+- New mounted-knight Home Screen icon.
 
-1. Create a new **public** GitHub repository.
-2. Upload **all files from this ZIP directly into the repository root** (not the ZIP itself and not an enclosing folder). Commit the upload.
-3. Go to **Settings → Pages → Build and deployment**. Select **Deploy from a branch**, branch **main**, folder **/(root)**, then **Save**.
-4. Wait for GitHub to display the published site URL. Open it in Safari on your iPad. For a Home Screen app, use Safari's Share → Add to Home Screen.
-
-If the branch dropdown is empty, check that the files have been **committed** on the Code tab. `index.html` must be at the top level, with lowercase spelling.
-
-## Gameplay
-
-- **Practice:** Select times tables, answer cells, and celebrate completed rows.
-- **Lava Survival:** Lava advances at a configurable interval. Deselected table rows are empty passages, not obstacles. Correct answers become temporary stone barriers; finishing a row reinforces its barriers. Lava eventually burns through, and flows sideways. Protect five jewels.
-- **Knight Battle:** Three individually selectable knights start at the bottom. Select a knight, then a square within five rows and five columns (diagonals allowed). Answer that cell's multiplication question to move; landing on an enemy defeats it with a cartoon gag. Twelve soldiers descend one row per adjustable timed surge. Defeat all twelve before any reaches the bottom row. All twelve tables are enabled in this mode so enemies can always be attacked.
-
-## Notes
-
-- The game is static HTML, CSS, JavaScript and locally bundled SVG artwork. No external services or assets are required.
-- The first visit requires internet access; subsequent visits can work offline using the service worker.
-- If a previously installed Home Screen app shows an old version, reopen the website in Safari while online and refresh it, then relaunch the app.
-- To change the cached release in future, increment the `CACHE` string in `sw.js`.
+Sound is generated in the browser via Web Audio and works offline. On iOS, tap the game once to unlock audio.
